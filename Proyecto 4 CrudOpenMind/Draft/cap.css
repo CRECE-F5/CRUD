@@ -1,0 +1,67 @@
+
+            #form{
+                margin:100px;
+                width: 350px;
+                outline: 5px solid #4A3C31;
+                border: 1px solid #4A3C31;
+                padding: 10px;
+                margin-top: 30px;
+            }
+            #form label{
+                font:bold 11px arial;
+                color: #565656;
+                padding-left: 1px;
+            }
+            #form label.mandat{color: #f00;}
+            #form input[type="text"]{
+                height: 30px;
+                margin-bottom: 8px;
+                padding: 5px;
+                font: 12px arial;
+                color: #0060a3;
+            }
+            #form textarea{
+                width: 340px;
+                height: 80px;
+                resize: none;
+                margin: 0 0 8px 1px;
+                padding: 5px;
+                font: 12px arial;
+                color: #4A3C31;
+            }
+            #form img{
+                margin-bottom: 8px;
+            }
+            #form input[type="submit"]{
+                background-color: #0064aa;
+                border: none;
+                color: #fff;
+                padding: 5px 8px;
+                cursor: pointer;
+                font:bold 12px arial;
+            }
+            .error{
+                text-align:center;
+                background:#B7F9AC;
+                color:#C33;
+            }
+            .cap_status{
+                width: 350px;
+                padding: 10px;
+                font: 14px arial;
+                color: #fff;
+                background-color: #10853f;
+                display: none;
+            }
+            .cap_status_error{
+                background-color: #bd0808;                
+            }
+           /*.cabecera{
+                background: #4A3C31;
+                border-bottom: 5px solid #69AD3C;
+                margin:-8px 0 0 -8px;
+                width: 100%;
+            }
+           .cabecera img{ 
+                margin:40px 0 0 30px;
+            }*/

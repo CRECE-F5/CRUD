@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Registro usuario</title>
+    <link href="css/style.css"  rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form method="post" action="controlUsuario.php">        
+        <input type="hidden" name="oculto" value="1"> <br>
+        <label>Nombre</label> 
+        <input type="text" name="nombre"> <br>
+        <label> Email</label> 
+        <input type="email" name="email"> <br>
+        <label> Password</label>
+        <input type="password" name="password"> <br>
+        <select name="tipo">
+            <option selected value="0">Elige una opción
+                <option value="A"> Administradora</option>
+                <option value="R"> Responsable </option>
+                <option value="F"> Formadora</option>
+            </option>
+            <input type="submit" value="Enviar">
+                </select>
+    </form> 
+    </body>
+</html>

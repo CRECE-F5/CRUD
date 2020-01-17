@@ -1,0 +1,194 @@
+*{
+  font-family: sans-serif;
+}
+body{
+	width: 80%;  
+  text-align: center;
+  margin-left: 170px;
+
+}
+
+.login{
+          border: black 3px solid;
+        }
+        .p1{
+          border: black 2px solid;
+        }
+        .login, .p1{
+          font-family: sans-serif;
+          font-size: 15px;
+        }
+
+.bd  {
+width: 50%;
+height: auto;
+margin-top: 50px;
+}
+
+.cuadro{
+  width: 500px;
+  height: 450px;
+}
+
+legend{
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+@media (min-width: 400px) {           
+    form {
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+    }
+  
+    label {
+      text-align: right;
+      grid-column: 1 / 2;
+    }
+  
+    input,
+    button {
+      grid-column: 2 / 3;
+  }
+}
+
+
+
+nav {
+  background:#528fd5;
+  margin-top:20px;
+  position: relative;
+}
+ 
+nav ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+ 
+nav > ul > li {
+  float:left;
+}
+ 
+nav ul li a {
+  text-decoration:none;
+  color:#fff;
+  display:block;
+  padding:10px 20px;
+}
+ 
+nav ul li a:hover {
+  background:#3669a3;
+}
+ 
+nav > ul > li:hover div {
+  display:table;
+}
+ 
+/*Submenu*/
+nav ul li div {
+  width:400px;
+  position: absolute;
+  left:0;
+  background:#ccc;
+  box-sizing:border-box;
+  display:none;
+}
+ 
+nav ul li div ul{
+  width:20%;
+  display:table-cell;
+  border-right:1px solid rgba(255,255,255,.5);
+  box-sizing:border-box;
+}
+ 
+nav ul li div ul:last-child {
+  border:none;
+}
+ 
+nav ul li div ul  {
+ 
+  color:#fff;
+}
+ 
+nav ul li div ul a {
+  color:#fff;
+  padding:10px 20px;
+}
+
+ 
+nav ul li div ul .titulo .menu a:hover {
+  background:none;
+}
+ 
+nav ul li div ul li a {
+  color:#000;
+}
+ 
+nav ul li div ul li  a:hover {
+  color:#fff;
+}
+
+
+/*ESTILO DEL CAPTCHA */
+
+
+ #form{
+                margin:500px;
+                width: 300px;
+                outline: 5px solid #4A3C31;
+                border: 1px solid #4A3C31;
+                padding: 10px;
+                margin-top: 50px;
+            }
+            #form label{
+                font:bold 11px arial;
+                color: #565656;
+                padding-left: 1px;
+            }
+            #form label.mandat{color: #f00;}
+            #form input[type="text"]{
+                height: 30px;
+                margin-bottom: 8px;
+                padding: 5px;
+                font: 12px arial;
+                color: #0060a3;
+            }
+            #form textarea{
+                width: 340px;
+                height: 80px;
+                resize: none;
+                margin: 0 0 8px 1px;
+                padding: 5px;
+                font: 12px arial;
+                color: #4A3C31;
+            }
+            #form img{
+                margin-bottom: 8px;
+            }
+            #form input[type="submit"]{
+                background-color: #0064aa;
+                border: none;
+                color: #fff;
+                padding: 5px 8px;
+                cursor: pointer;
+                font:bold 12px arial;
+            }
+            .error{
+                text-align:center;
+                background:#B7F9AC;
+                color:#C33;
+            }
+            .cap_status{
+                width: 350px;
+                padding: 10px;
+                font: 14px arial;
+                color: #fff;
+                background-color: #10853f;
+                display: none;
+            }
+            .cap_status_error{
+                background-color: #bd0808;                
+            }
